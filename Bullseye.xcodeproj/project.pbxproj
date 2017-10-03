@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E3167C121F83F31F00C9E19F /* AuthorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3167C111F83F31F00C9E19F /* AuthorViewController.swift */; };
 		E38247201F82A6FB00D837B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E382471F1F82A6FB00D837B8 /* AppDelegate.swift */; };
 		E38247221F82A6FB00D837B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38247211F82A6FB00D837B8 /* ViewController.swift */; };
 		E38247251F82A6FB00D837B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E38247231F82A6FB00D837B8 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		E382472A1F82A6FB00D837B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E38247281F82A6FB00D837B8 /* LaunchScreen.storyboard */; };
 		E38247351F82A6FB00D837B8 /* BullseyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38247341F82A6FB00D837B8 /* BullseyeTests.swift */; };
 		E38247401F82A6FB00D837B8 /* BullseyeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E382473F1F82A6FB00D837B8 /* BullseyeUITests.swift */; };
+		E382474E1F83DBDC00D837B8 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E382474D1F83DBDC00D837B8 /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E3167C111F83F31F00C9E19F /* AuthorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorViewController.swift; sourceTree = "<group>"; };
 		E382471C1F82A6FB00D837B8 /* Bullseye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bullseye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E382471F1F82A6FB00D837B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E38247211F82A6FB00D837B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		E382473B1F82A6FB00D837B8 /* BullseyeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BullseyeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E382473F1F82A6FB00D837B8 /* BullseyeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullseyeUITests.swift; sourceTree = "<group>"; };
 		E38247411F82A6FB00D837B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E382474D1F83DBDC00D837B8 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				E382471F1F82A6FB00D837B8 /* AppDelegate.swift */,
 				E38247211F82A6FB00D837B8 /* ViewController.swift */,
 				E38247231F82A6FB00D837B8 /* Main.storyboard */,
+				E3167C111F83F31F00C9E19F /* AuthorViewController.swift */,
+				E382474D1F83DBDC00D837B8 /* AboutViewController.swift */,
 				E38247261F82A6FB00D837B8 /* Assets.xcassets */,
 				E38247281F82A6FB00D837B8 /* LaunchScreen.storyboard */,
 				E382472B1F82A6FB00D837B8 /* Info.plist */,
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E382474E1F83DBDC00D837B8 /* AboutViewController.swift in Sources */,
 				E38247221F82A6FB00D837B8 /* ViewController.swift in Sources */,
 				E38247201F82A6FB00D837B8 /* AppDelegate.swift in Sources */,
+				E3167C121F83F31F00C9E19F /* AuthorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

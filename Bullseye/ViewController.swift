@@ -22,6 +22,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         currentValue = lroundf(slider.value)
+        startNewGame()
+    }
+    
+   @IBAction func startNewGame() {
+        score = 0
+        round = 0
         startNewRound()
     }
     
